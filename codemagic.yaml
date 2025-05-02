@@ -1,9 +1,9 @@
 workflows:
-  android-build:
+  android-workflow:
     name: Build Android APK
     environment:
-      sdk: "30.0.3"
-      java: "11"
+      android: true
+      java: 11
     scripts:
       - name: Install dependencies
         script: |
